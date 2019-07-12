@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="author" content="Alvaro José Zapata Téllez">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <meta name="description" content="Evaluacion final - Hoja de vida digital">
+    <title>Hoja de vida digital</title>
+    <style media="screen">
+      nav ul{
+              float:right;
+              list-style:none;
+              margin:0 30px 0 30px;
+              padding:0;
+      }
+      nav ul li{
+          /*Bordes redondeados*/
+          -webkit-border-radius:5px;/*Chrome y Safari*/
+          -moz-border-radius:5px;/*Firefox*/
+          -o-border-radius:5px;/*Opera*/
+          border-radius:5px;/*Estandar por defecto*/
+          float:left;
+          font-family:Arial, Helvetica, sans-serif;
+          font-size:16px;
+          font-weight:bold;
+          margin-right:10px;
+          text-align:center;
+          /*Sombras para texto, los mismos parametros que box-shadow*/
+          text-shadow: 0px 1px 0px #FFF;
+      }
+
+      nav ul li a{
+          color:#999;
+          display:block;
+          padding:10px;
+          text-decoration:none;
+          /*Transiciones*/
+          -webkit-transition: 0.4s linear all;
+          -moz-transition: 0.4s linear all;
+          -o-transition: 0.4s linear all;
+          transition: 0.4s linear all;
+        }
+
+        nav ul li a:hover {
+          color:#000;
+        }
+
+        footer {
+          text-align: center;
+          border-top: 3.5px solid blue;
+          margin-right: 20px;
+          margin-left: 20px;
+          padding-top: 0px;
+          background-color: white;
+          font-weight: bold;
+          font-size: 90%
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <svg width="230px" height="140px" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+       <!-- Created with SVG-edit - https://github.com/SVG-Edit/svgedit-->
+       <g class="layer">
+        <title>Layer 1</title>
+        <g id="svg_3">
+         <path d="m16.5,78.000002c0,-31.767957 41.618785,-57.500002 93.000002,-57.500002c51.381216,0 93.000002,25.732045 93.000002,57.500002c0,31.767957 -41.618785,57.500002 -93.000002,57.500002c-51.381216,0 -93.000002,-25.732045 -93.000002,-57.500002z" fill="#0000ff" id="svg_1" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="5"/>
+         <text fill="#ffffff" font-family="serif" font-size="24" id="svg_2" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" transform="matrix(2.2896 0 0 2.77179 -254.715 -442.909)" x="158.847971" xml:space="preserve" y="195.721852">AJZT</text>
+        </g>
+       </g>
+      </svg>
+      <h1>Hoja de Vida</h1>
+      <h2>Datos Personales</h2>
+      <h3>Nombre y Apellido : Alvaro José Zapata Téllez</h3>
+      <h3>Nacimiento Fecha : 17/02/2019</h3>
+      <h3>Lugar de Nacimiento : Leon, Nicaragua</h3>
+    </header>
+    <menu>
+      <nav>
+        <ul>
+            <li><a title="Inicio" href="index.html">Inicio</a></li>
+            <li><a title="Educacion" href="educacion.html">Educación</a></li>
+            <li><a title="Experiencia" href="experiencia.html">Experiencia</a></li>
+        </ul>
+     </nav>
+    </menu>
+    <section>
+      <br>
+      <h2>Experiencia</h2>
+      <video controls autoplay poster="images/SDC11016.jpg">
+        <source src="videos/video.mp4" type="video/mp4">
+      </video>
+      <h2>Hobbies</h2>
+      <audio src="audios/audio.m4a" autoplay controls></audio>
+    </section>
+    <footer>
+      <p>Email : alvarozapatatellez@gmail.com</p>
+      <p>Telefono : 81322136</p>
+      <p>Dirección : Paraderas de nuevo leon, 3ra etapa, cuarta calle casa F-20</p>
+    </footer>
+  </body>
+</html>
